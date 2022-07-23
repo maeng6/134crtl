@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:teampage2/member.dart';
 import 'package:teampage2/textbox.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 void main() {
@@ -45,7 +44,7 @@ class MyPage extends StatelessWidget {
   //
   // late GlobalKey _containerKey = GlobalKey();
   // late final containerHeightSize = _getHeightSize(_containerKey);
-//d
+
   @override
   Widget build(BuildContext context) {
     final med = MediaQuery.of(context);
