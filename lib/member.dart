@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class Member{
@@ -19,35 +20,38 @@ class Member{
               Text(
                 '$name',
                 textScaleFactor: 1.0,
-                style: TextStyle(
-                    fontWeight: FontWeight.w700,
-                    fontSize: 14,
-                    fontFamily: "Volte",
-                    color: Color(0xffFFFFFF)),
+                style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 14,
+                      color: Color(0xffFFFFFF)),
+                ),
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height*0.003,
+                height: 2,
               ),
               Text(
                 '$position',
                 textScaleFactor: 1.0,
-                style: TextStyle(
-                    fontWeight: FontWeight.w100,
-                    fontSize: 14,
-                    fontFamily: "Volte",
-                    color: Color(0xffFFFFFF)),
+                style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                      fontWeight: FontWeight.w200,
+                      fontSize: 14,
+                      color: Color(0xffFFFFFF)),
+                ),
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height*0.003,
+                height: 2,
               ),
               Text(
                 '$email',
                 textScaleFactor: 1.0,
-                style: TextStyle(
-                    fontWeight: FontWeight.w100,
-                    fontSize: 14,
-                    fontFamily: "Volte",
-                    color: Color(0xffFFFFFF)),
+                style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                      fontWeight: FontWeight.w200,
+                      fontSize: 14,
+                      color: Color(0xffFFFFFF)),
+                ),
               ),
             ],
           );
